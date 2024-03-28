@@ -3,7 +3,7 @@ image:
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
 
-  tag: "20240328T210744"
+  tag: "20240328T211856"
 imagePullSecrets: []
 service:
   type: ClusterIP
