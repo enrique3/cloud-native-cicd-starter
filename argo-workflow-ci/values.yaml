@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 docker:
-  # server: docker-registry.131.153.227.137.sslip.io
+  # server: docker-registry.212.2.242.230.sslip.io
   server: docker.io
   prefix: krumware/
   secretName: docker-push-user
@@ -39,8 +39,8 @@ github:
 
   # configures our expected inbound webhook route which Github will be 
   webhook:
-    domain: rancher.74.220.17.50.sslip.io
-    hostname: https://rancher.74.220.17.50.sslip.io
+    domain: rancher.212.2.242.230.sslip.io
+    hostname: https://rancher.212.2.242.230.sslip.io
     port: 12000
     endpoint: /api/webhook
 
